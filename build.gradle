@@ -30,10 +30,13 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-thymeleaf')
     compile('org.springframework:spring-web')
     compile('com.fasterxml.jackson.core:jackson-databind')
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('mysql:mysql-connector-java')
+    compile('org.hibernate:hibernate-validator')
+    compile('org.apache.tomcat.embed:tomcat-embed-el')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
